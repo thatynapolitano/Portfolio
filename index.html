@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <!-- NAVEGAÇÃO -->
+  <nav id="desktop-nav">
+    <div class="logo">Thatiana Napolitano</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#experience">Experiências</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contatos</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- NAVEGADOR "HAMBURGUER" -->
+  <nav id="hamburger-nav">
+    <div class="logo">Thatiana Napolitano</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experiências</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PERFIL -->
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.png" alt="Thatiana Napolitano profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Olá, sou</p>
+      <h1 class="title">Thatiana Napolitano</h1>
+      <p class="section__text__p2">Analista de Dados</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume-thatiana-napolitano.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-2" onclick="location.href='#contact'">
+          Contato
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/thatiana-napolitano'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/thatynapolitano'" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="about">
+    <p class="section__text__p1">Para saber mais</p>
+    <h1 class="title">Sobre mim</h1>
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+          <h3>Experiência</h3>
+          <p>+2 anos <br />Analista de Dados</p>
+        </div>
+        <div class="details-container">
+          <img src="./assets/education.png" alt="Education icon" class="icon" />
+          <h3>Educação</h3>
+          <p>Formada em Análise e Desenvolvimento de Sistemas<br> Curso de Engenharia de Dados pelo programa Santander
+            Coders </p>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>
+          Sou Analista de Dados, apaixonada por explorar e interpretar dados para gerar insights valiosos que
+          impulsionam resultados. Com experiência em todo o fluxo de dados – desde ETL (Extração, Transformação e Carga)
+          até a visualização final – desenvolvo dashboards e relatórios personalizados que facilitam decisões informadas
+          e impactantes.
+          Minha missão é traduzir dados complexos em narrativas visuais claras e estratégicas, sempre alinhadas aos
+          objetivos do negócio. Acredito que dados bem estruturados são a chave para melhorar a performance e inovação
+          nas empresas.
+        </p>
+      </div>
+    </div>
+    </div>
+
+    <!-- EXPERIÊNCIA -->
+    <section id="experience">
+      <p class="section__text__p1">Explore as minhas</p>
+      <h1 class="title">Experiências</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Analista de Dados</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Microsoft Power BI</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Business Intelligence</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Storytelling</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>MySQL</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>SQL</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Databricks</h3>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJETOS -->
+        <section id="projects">
+          <p class="section__text__p1">Navegue pelos meus recentes</p>
+          <h1 class="title">Projetos</h1>
+          <div class="experience-details-container">
+            <div class="about-containers">
+
+              <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Majestic Exportadora</h2>
+                  <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/thatynapolitano/Majestic-Exportadora'">
+                      Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://shorturl.at/RvK22'">
+                      Visualização
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Din Din Bank
+                  </h2>
+                  <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/thatynapolitano/Sistema-Financeiro-DinDin-Bank'">
+                      Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/thatynapolitano/Sistema-Financeiro-DinDin-Bank'">
+                      Visualização
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Museu dos Games</h2>
+                  <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/thatynapolitano/Museu-dos-Games'">
+                      Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/thatynapolitano/Museu-dos-Games'">
+                      Visualização
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Projeto 4 -->
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img src="./assets/project-4.png" alt="Project 4" class="project-img" />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Análise de Educação Global</h2>
+                  <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/thatynapolitano/Global-Education-Analysis'">
+                      Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/thatynapolitano/Global-Education-Analysis'">
+                      Visualização
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Projeto 5 -->
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img src="./assets/project-5.png" alt="Project 5" class="project-img" />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Banco de Dados Análise Preditiva de Máquinas</h2>
+                  <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/thatynapolitano/Modelagem-de-banco-de-dados-para-manutencao-preditiva-de-maquinas/tree/main'">
+                      Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/thatynapolitano/Modelagem-de-banco-de-dados-para-manutencao-preditiva-de-maquinas/tree/main'">
+                      Visualização
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Projeto 6 -->
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img src="./assets/project-6.png" alt="Project 6" class="project-img" />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Arquitetura Distribuída para o Cadastro Ambiental Rural</h2>
+                  <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/thatynapolitano/Projeto-Big-Data-Temas-Ambientais'">
+                      Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/thatynapolitano/Projeto-Big-Data-Temas-Ambientais'">
+                      Visualização
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contact">
+          <p class="section__text__p1">Contato</p>
+          <h1 class="title">Entre em contato</h1>
+          <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+              <img src="./assets/e-mail.png" alt="Email icon" class="icon contact-icon email-icon" />
+              <p><a href="mailto:thatiananapolitano@gmail.com">thatiananapolitano@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+              <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+              <p><a href="https://www.linkedin.com/in/thatiana-napolitano">LinkedIn</a></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- FOOTER e navegação -->
+        <footer>
+          <nav>
+            <div class="nav-links-container">
+              <ul class="nav-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#experience">Experiências</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+              </ul>
+            </div>
+          </nav>
+        </footer>
+</body>
+
+</html>
