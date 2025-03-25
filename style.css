@@ -380,6 +380,12 @@ article .icon {
   position: relative;
 }
 
+.projects-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .color-container {
   border-color: rgb(34, 15, 80);
   background: rgb(233, 232, 233);
@@ -412,6 +418,8 @@ article .icon {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+
 /* CONTATO */
 
 #contact {
