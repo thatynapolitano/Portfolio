@@ -408,8 +408,8 @@ article .icon {
 }
 
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -436,10 +436,19 @@ article .icon {
   border: black 0.1rem solid;
   border-color: rgb(218, 207, 224);
   background: (250, 250, 250);
-  margin: 2rem auto;
+  margin: 2rem 0;
   padding: 0.5rem;
 }
 
+.social-contact-container {
+  border-radius: 2rem;
+  border: black 0.1rem solid;
+  border-color: rgb(218, 207, 224);
+  background: (250, 250, 250);
+  margin: 2rem 0;
+  padding: 0.5rem;
+
+}
 .contact-info-container {
   display: flex;
   align-items: center;
