@@ -179,7 +179,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 400px;
 }
 
 .section__pic-container {
