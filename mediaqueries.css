@@ -46,10 +46,10 @@
   @media screen and (max-width: 768px) {
     #contact,
     footer {
-      height: 40vh;
+      height: 400px;
     }
     #profile {
-      height: 83vh;
+      height: 400px;
       margin-bottom: 0;
     }
     .section {
