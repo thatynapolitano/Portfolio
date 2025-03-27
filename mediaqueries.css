@@ -31,6 +31,7 @@
     section,
     .section-container {
       height: fit-content;
+      margin: 0 8px;
     }
     .section__pic-container {
       width: 275px;
@@ -73,6 +74,12 @@
 
     .experience-sub-title {
       font-size: 1.25rem;
+    }
+
+    .about-containers{
+    justify-content: center;
+    align-items: center;
+
     }
 
     .about-containers,
