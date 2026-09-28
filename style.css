@@ -162,13 +162,11 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
   margin: 0 auto;
   box-sizing: border-box;
   min-height: fit-content;
   max-width: 1280px;
-  margin: 0 auto;
-  }
+}
 
 .section-container {
   display: flex;
